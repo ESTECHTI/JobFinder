@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Android\Android Studio\jre\bin";C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MongoDB\Server\4.2\bin;C:\oracle\instantclient_11_2;C:\Users\elisandro.oliveira\Downloads\keycloak-7.0.0\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-11.0.8\bin;C:\Program Files\nodejs\;C:\Program Files\PostgreSQL\9.6\bin;;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\elisandro.oliveira\AppData\Local\Microsoft\WindowsApps;C:\Users\elisandro.oliveira\AppData\Local\Programs\Git\cmd;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\elisandro.oliveira\Downloads\keycloak-7.0.0\bin;C:\Users\elisandro.oliveira\AppData\Local\Yarn\bin;C:\Users\elisandro.oliveira\AppData\Local\Android\Sdk\emulator;C:\Users\elisandro.oliveira\AppData\Local\Android\Sdk\tools;C:\Users\elisandro.oliveira\AppData\Local\Android\Sdk\tools\bin;C:\Users\elisandro.oliveira\AppData\Local\Android\Sdk\platform-tools;C:\Users\elisandro.oliveira\AppData\Local\Android\Sdk\platform-tools;C:\Users\elisandro.oliveira\AppData\Local\Android\Sdk\tools;C:\Program Files\Android\Android Studio\jre;C:\Users\elisandro.oliveira\AppData\Roaming\npm;C:\Users\elisandro.oliveira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\4.4\bin;
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 10852:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "name": "job_finder",
+    "version": "1.0.0",
+    "description": "Este sistema é um portal para programadores encontrarem vagas de trabalho",
+    "main": "app.js",
+    "scripts": {
+      "dev": "nodemon app.js"
+    },
+    "keywords": [
+      "dev",
+      "jobs",
+      "dev",
+      "oportunity"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "express-handlebars": "^5.2.0",
+      "sequelize": "^6.5.0",
+      "sqlite3": "^5.0.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
